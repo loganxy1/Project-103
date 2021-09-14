@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Project 103</title>
+        <link rel="stylesheet" href="style.css">
+        https://youtu.be/RDWLIwZ3JdM
+    </head>
+    <body>
+        <center>
+            <div>
+                <br>
+                <h1>Family Member Recognition</h2>
+                <h3>List of faces that can be recognized:</h3>
+                <br>
+                <div id="list">
+                    <b>Yuvraj (someone)</b>
+                    <hr>
+                    <b>Mom</b>
+                    <hr>
+                    <b>Dad</b>
+                </div>
+                <br><br>
+                <h3>Current webcam view:</h3>
+                <div id="camera"></div>
+                <br><br>
+                <h3>Your picture:</h3>
+                <div id="result"></div>
+                <br><br>
+                <button id="pic" onclick="take_snapshot()">Take picture</button>
+                <button id="check" onclick="check()">Identify Face</button>
+                <br><br><br>
+                <span id="family">Family Member: <span id=""></span></span>
+                <br>
+                <span>Acurracy:<span id=""></span></span>
+            </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
